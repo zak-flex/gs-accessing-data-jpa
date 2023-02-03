@@ -2,13 +2,12 @@ package com.example.accessingdatajpa;
 
 import com.example.accessingdatajpa.model.Customer;
 import com.example.accessingdatajpa.repository.CustomerRepository;
+import java.util.Optional;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-
-import java.util.Optional;
 
 @SpringBootApplication
 @Slf4j
